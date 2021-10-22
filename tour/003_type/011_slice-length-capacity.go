@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
+	// スライスには length と capacity がある
+	// length は、今の要素数。 capacity は元の配列の要素数
 	s := []int{2, 3, 5, 7, 11, 13}
 	printSlice(s)
 
